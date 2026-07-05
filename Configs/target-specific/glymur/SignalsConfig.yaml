@@ -25,6 +25,7 @@ SignalConfigs:
       - {ResCode: "RES_SCHED_UTIL_CLAMP_MAX", Values: [153]}
       - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_LITTLE_ALL_CORES", Values: [806400]}
       - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_BIG_ALL_CORES", Values: [940800]}
+      - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_PLUS_ALL_CORES", Values: [940800]}
 
   # Video decode
   # Decode 5-20 concurrent sessions
@@ -49,6 +50,7 @@ SignalConfigs:
       - {ResCode: "RES_SCHED_UTIL_CLAMP_MAX", Values: [307]}
       - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_LITTLE_ALL_CORES", Values: [940800]}
       - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_BIG_ALL_CORES", Values: [1228800]}
+      - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_PLUS_ALL_CORES", Values: [1228800]}
 
   # Video decode
   # Decode 20+ concurrent sessions
@@ -93,6 +95,7 @@ SignalConfigs:
       - {ResCode: "RES_SCHED_UTIL_CLAMP_MAX", Values: [153]}
       - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_LITTLE_ALL_CORES", Values: [940800]}
       - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_BIG_ALL_CORES", Values: [940800]}
+      - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_PLUS_ALL_CORES", Values: [940800]}
 
   # camera encode
   # Default encode - 30fps
@@ -117,6 +120,7 @@ SignalConfigs:
       - {ResCode: "RES_SCHED_UTIL_CLAMP_MAX", Values: [153]}
       - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_LITTLE_ALL_CORES", Values: [806400]}
       - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_BIG_ALL_CORES", Values: [940800]}
+      - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_PLUS_ALL_CORES", Values: [940800]}
 
   # Camera encode
   # Default encode - 4k 30fps case
@@ -145,6 +149,7 @@ SignalConfigs:
       - {ResCode: "RES_SCHED_UTIL_CLAMP_MAX", Values: [410]}
       - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_LITTLE_ALL_CORES", Values: [806400]}
       - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_BIG_ALL_CORES", Values: [940800]}
+      - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_PLUS_ALL_CORES", Values: [940800]}
 
   # camera encode multi-stream
   # encode (0-12 streams) [sigtype : 0 for normal load (<12 stream)]
@@ -170,6 +175,7 @@ SignalConfigs:
       - {ResCode: "RES_SCHED_UTIL_CLAMP_MAX", Values: [410]}
       - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_LITTLE_ALL_CORES", Values: [806400]}
       - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_BIG_ALL_CORES", Values: [940800]}
+      - {ResCode: "RES_SCALE_MAX_FREQ", ResInfo: "CLUSTER_PLUS_ALL_CORES", Values: [940800]}
 
   # camera encode multi-stream
   # encode (12+ streams) [sigtype : 13 for high load (>12 stream)]
