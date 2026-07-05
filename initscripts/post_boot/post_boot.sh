@@ -29,6 +29,7 @@ check_and_execute "$script"
 # Check if there exists any target-specific post boot script
 if [ -f /sys/devices/soc0/machine ]; then
     machine=$(cat /sys/devices/soc0/machine 2>/dev/null | tr '[:upper:]' '[:lower:]')
+    #below only needed for variants of the targets, if any
     case "$machine" in
         sa8775p)
             machine="qcs9100"
@@ -38,6 +39,9 @@ if [ -f /sys/devices/soc0/machine ]; then
             ;;
         qcs6490)
             machine="qcm6490"
+            ;;
+        cq2390s|iq2390s)
+            machine="cq2390m"
             ;;
         *)
             # Empty default case
